@@ -1,5 +1,9 @@
 ##use vim as an IDE
 
+```
+mv vim ~/.vim
+mv vimrc ~/.vimrc
+```
 
 ###plugin list
 ---
