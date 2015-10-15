@@ -134,7 +134,10 @@ map <c-e> <ESC>:AuthorInfoDetect<CR><ESC>
 let mapleader=","
 
 nnoremap <silent> <Leader>t :TlistToggle <CR>
-nnoremap <silent> <Leader>g :CommandT <CR>
+"command-t需要vim-ruby支持，有些情况下不能使用，推荐使用下面的ctrlp
+"nnoremap <silent> <Leader>g :CommandT <CR>
+nnoremap <silent> <Leader>g :CtrlPMixed <CR>
+
 nnoremap <silent> <Leader>w  :WMToggle <CR>
 nnoremap <silent> <Leader>n  :NERDTreeToggle <CR>
 "设置一些快捷键

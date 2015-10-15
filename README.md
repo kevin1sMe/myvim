@@ -20,4 +20,5 @@ nerdtree
 taglist
 vim-powerline-develop
 winmanager
+ctrlp
 ```
