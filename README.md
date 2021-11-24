@@ -6,8 +6,7 @@ git clone --depth=1 https://github.com/kevin1sMe/myvim.git $HOME/.vim
 mv $HOME/.vim/.vimrc $HOME/
 ```
 
-###plugin list
----
+### plugin list
 
 ```
 a
