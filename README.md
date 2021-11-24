@@ -1,8 +1,7 @@
-##use vim as an IDE
+## use vim as an IDE
 
 ```
-mv vim ~/.vim
-mv vimrc ~/.vimrc
+git clone --depth=1 https://github.com/kevin1sMe/myvim.git $HOME/.vim
 ```
 
 ###plugin list

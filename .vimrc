@@ -11,9 +11,6 @@ filetype plugin on
 
 set nocompatible
 
-"tab
-set tags+=.,./**/tags,/Users/kevin/Source/git_repo/skynet_tags
-
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -118,9 +115,6 @@ au BufRead,BufNewFile *.txt setlocal ft=txt
 " :FencView           查看文件编码和更改文件编码
 let g:fencview_autodetect=1
 
-" :LoadTemplate       根据文件后缀自动加载模板
-""let g:template_path='/data/kevinlin/.vim/template/'
-
 " :AuthorInfoDetect   自动添加作者、时间等信息，本质是NERD_commenter && authorinfo的结合
 let g:vimrc_author='kevinlin'
 let g:vimrc_email='linjiang1205@qq.com'
@@ -197,19 +191,3 @@ let Grep_Default_Filelist="*.cpp *.c *.cc *.h"
 let Grep_Xargs_Options='-print0'
 let Egrep_Path="/usr/bin/egrep"
 let Fgrep_Path="/usr/bin/fgrep"
-
-"clang_complete{
-""let completeopt-=preview
-let g:clang_complete_auto = 1
-" clang_complete 相关
-"产生错误时打开 quickfix 窗口
-let g:clang_complete_copen = 1
-"定期更新 quickfix 窗口
-let g:clang_periodic_quickfix = 1
-"开启 code snippets 功能
-let g:clang_snippets = 0
-"}
-
-
-vmap "+y :w !pbcopy<CR><CR>
-nmap "+p :r !pbpaste<CR><CR>
